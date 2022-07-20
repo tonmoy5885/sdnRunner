@@ -1,0 +1,46 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  overflow-x: hidden;
+}
+
+.about-background { 
+  background: url(/images/about-background.jpg); 
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.home-background { 
+  background: url(/images/home-background.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+i {
+  cursor: pointer;
+}
+
+i.fa-plus:hover {
+  color: darkblue;
+}
+
+i.fa-xmark:hover {
+  color: red;
+}

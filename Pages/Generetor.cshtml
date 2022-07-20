@@ -1,0 +1,239 @@
+@page
+@model GeneratorModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center my-3">
+    <h1>Config Generetor</h1>
+</div>
+
+
+@if(Model.hasData)
+{
+    <div class="container text-center mt-5">
+        <a class="btn btn-primary" href="@Model.filepath" target="_blank">View JSON</a>
+        <a class="btn btn-primary" href="@Model.filepath" target="_blank" download >Download JSON</a>
+    </div>
+}
+
+else {
+    
+    <div class="container">
+        <form action="/Generetor" method="post" asp-antiforgery="true">
+
+            @{
+                int count = 1;
+                List<string> subList = new List<string>();
+
+                foreach ( var field in Model.fields ) {
+                    @* Console.WriteLine(value); *@
+
+                    subList.Add(field);
+
+                    if ( count == 20 ) {
+
+                        <div class="row bg-secondary mb-5">
+
+                            <div class="col-sm-6 border">
+                                <div class="m-3">
+                                    @* first row *@
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[0]"> @subList[0] </label>
+                                                <input type="text" class="form-control" id="@subList[0]" name="@subList[0]">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[1]"> @subList[1] </label>
+                                                <input type="text" class="form-control" id="@subList[1]" name="@subList[1]">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    @* second row *@
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[2]"> @subList[2] </label>
+                                                <input type="text" class="form-control" id="@subList[2]" name="@subList[2]">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[3]"> @subList[3] </label>
+                                                <input type="text" class="form-control" id="@subList[3]" name="@subList[3]">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    @* third row *@
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[4]"> @subList[4] </label>
+                                                <input type="text" class="form-control" id="@subList[4]" name="@subList[4]">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[5]"> @subList[5] </label>
+                                                <input type="text" class="form-control" id="@subList[5]" name="@subList[5]">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    @* forth row *@
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[6]"> @subList[6] </label>
+                                                <input type="text" class="form-control" id="@subList[6]" name="@subList[6]">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[7]"> @subList[7] </label>
+                                                <input type="text" class="form-control" id="@subList[7]" name="@subList[7]">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    @* fifth row *@
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[8]"> @subList[8] </label>
+                                                <input type="text" class="form-control" id="@subList[8]" name="@subList[8]">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[9]"> @subList[9] </label>  
+                                                <input type="text" class="form-control" id="@subList[9]" name="@subList[9]">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-sm-6 border">
+                                <div class="m-3">
+                                    @* first row *@
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[10]"> @subList[10] </label>
+                                                <input type="text" class="form-control" id="@subList[10]" name="@subList[10]">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[11]"> @subList[11] </label>
+                                                <input type="text" class="form-control" id="@subList[11]" name="@subList[11]">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    @* second row *@
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[12]"> @subList[12] </label>
+                                                <input type="text" class="form-control" id="@subList[12]" name="@subList[12]">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[13]"> @subList[13] </label>
+                                                <input type="text" class="form-control" id="@subList[13]" name="@subList[13]">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    @* third row *@
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[14]"> @subList[14] </label>
+                                                <input type="text" class="form-control" id="@subList[14]" name="@subList[14]">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[15]"> @subList[15] </label>     
+                                                <input type="text" class="form-control" id="@subList[15]" name="@subList[15]">      
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    @* forth row *@
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[16]"> @subList[16] </label>     
+                                                <input type="text" class="form-control" id="@subList[16]" name="@subList[16]">      
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[17]"> @subList[17] </label>  
+                                                <input type="text" class="form-control" id="@subList[17]" name="@subList[17]">        
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    @* fifth row *@
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[18]"> @subList[18] </label>       
+                                                <input type="text" class="form-control" id="@subList[18]" name="@subList[18]">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-2" for="@subList[19]"> @subList[19] </label>
+                                                <input type="text" class="form-control" id="@subList[19]" name="@subList[19]">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        Console.WriteLine(subList.Count);
+                        count = 1;
+                        subList.Clear();
+                        continue;
+                    }
+                    count++;
+                }
+            }
+
+
+
+            <div class="text-center mb-4">
+                <button class="btn btn-primary">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+}

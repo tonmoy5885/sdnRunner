@@ -1,0 +1,55 @@
+{
+  "westusprod": {
+    "RunnerName": "runnerName.Mzasdfiu",
+    "RunnerInstanceName": "Mzasdfiuwestusprod",
+    "EnvironmentName": "westusprod",
+    "MdsServiceUrl": "https://production.diagnostics.monitoring.core.windows.net",
+    "MdsLocation": "Runnersvcprodam3",
+    "MdsAccountName": "AzNetToolsRunners",
+    "MDSToolsRelativePath": "RDTools\\Mds\\mds.exe",
+    "MdmNamespace": "E2ETestsSlbv2,E2ETestsSlbv2",
+    "CertStoreLocation": "",
+    "CIDR": "",
+    "Zones": "",
+    "ClientId": "157e8bff-11b4-40d1-b630-707d642c830c",
+    "TenantId": "20ac2fc4-effc-4f76-ba7d-63c5ae134f5f",
+    "AADServicePrincipalObjectId": "24432996-d588-4e67-934d-dd7c47b9c8f8",
+    "UserMgdClientId": "",
+    "UserMgdTenantId": "",
+    "UserMgdObjectId": "",
+    "AuthorityText": "https://login.microsoftonline.microsoft.scloud/{0}",
+    "AzureManagementUrl": "https://management.core.microsoft.scloud/",
+    "WorkerRoleUrl": "",
+    "CloudappFqdn": ".cloudapp.microsoft.scloud",
+    "StorageEndpointSuffix": "core.microsoft.scloud",
+    "SqlServerEndPointSuffix": "database.microsoft.scloud",
+    "KeyVaultResourceURL": "vault.azure.microsoft.scloud",
+    "SubscriptionListFileName": "AzureConstants\\AzureSubscriptionList.USSec.json",
+    "KeyVaultConfigFileName": "Configurations\\KeyVaultConfig.USSec.xml",
+    "SubscriptionId": "",
+    "Region": "westus",
+    "ResourceGroupName": "Mzasdfiuwusprod",
+    "WorkerLogType": "json",
+    "TipClusters": null,
+    "ARMTemplates": {
+      "Identifier": null,
+      "TemplatePath": "ARMTemplates\\Accelnet\\Accelnet-ARMTemplate-NoPin.json",
+      "TemplateContents": null,
+      "OutputVariables": null,
+      "DeploymentDuration": "00:00:00",
+      "IsPrimaryARMTemplate": true,
+      "TransformationIntervalSeconds": -1
+    },
+    "ValidationType": [
+      ""
+    ],
+    "RunnerValidations": {
+      "": [
+        ""
+      ]
+    },
+    "RunnerControlPlaneValidations": [
+      ""
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+    "Accelnet": [
+      "Accelnet-ARMTemplate-NoPin.json",
+      "Accelnet-ARMTemplate.json",
+      "NoVM-ARMTemplate.json",
+      "PeeringSameRegion-ARMTemplate.json",
+      "PrivateLinkService-ARMTemplate.json",
+      "SameSubnetVnet-ARMTemplate.json",
+      "SameSubnetVnetWithNVMRsc-ARMTemplate.json",
+      "SingleVM-ARMTemplate.json",
+      "UDRSameVnetDiffSubnet-ARMTemplate.json",
+      "VMFrontedWithELB-ARMTemplate.json",
+      "VMFrontedWithILB-ARMTemplate.json",
+      "VPNGtwy-ARMTemplate.json"
+    ],
+    "AKS": [
+      "AKS-ARMTemplate_Image.json"
+    ],
+    "ANM": [
+      "AnmNmAgent_template.json",
+      "AnmNmAgent_template_Image.json"
+    ],
+    "AnmCP": [
+      "AnmCP_template_Image.json"
+    ],
+    "ASG": [
+      "ASGTemplate.json",
+      "ASGTemplate_Image.json",
+      "RNC_ASGTemplate_Image.json"
+    ],
+    "AzMoveMigration": [
+      "AzMoveMigrationBasic-ARMTemplate.json",
+      "AzMoveMigrationBasic-ARMTemplate_Image.json"
+    ],
+    "ContainerNetworking": [
+      "basic-container.json",
+      "dns-container.json",
+      "lb-container.json",
+      "nat-gateway-container.json",
+      "nsg-container.json",
+      "peering-container.json",
+      "private-link-container.json",
+      "service-tunnel-container.json",
+      "udr-container.json",
+      "vpngateway-container.json"
+    ],
+    "ContinuousPacketSender": [
+      "ContinuousPacketSenderLBILBSLBv2-ARMTemplate.json",
+      "ContinuousPacketSenderSLBv2-ARMTemplate.json",
+      "CpsAbcNonOpaphCBZ-ARMTemplate.json",
+      "CpsAbcNonOpaphCDM-ARMTemplate.json",
+      "CpsAbcNonOpaphCYS-ARMTemplate.json",
+      "CpsAbcOpaphAccelHighThrougputCYS-ARMTemplate.json",
+      "CpsAbcOpaphAccelMulConnCBN-ARMTemplate.json",
+      "CpsAbcOpaphAccelMulConnCYS-ARMTemplate.json",
+      "CpsAbcOpaphAccelNetBY-ARMTemplate.json",
+      "CpsAbcOpaphAccelNetCDM-ARMTemplate.json",
+      "CpsAbcOpaphBNZ-ARMTemplate.json",
+      "CpsAbcOpaphCBN-ARMTemplate.json",
+      "CpsAbcOpaphCDM-ARMTemplate.json",
+      "CpsAbcOpaphCH-ARMTemplate.json",
+      "CpsAbcOpaphCYS-ARMTemplate.json",
+      "CpsAbcOpaphCYS1-ARMTemplate.json",
+      "CpsAbcOpaphDownloadBlobCrossRegionCDM-ARMTemplate.json",
+      "CpsAbcOpaphDownloadBlobInRegionCBN-ARMTemplate.json",
+      "CpsAbcOpaphHighThroughputCBN-ARMTemplate.json",
+      "CpsAbcOpaphHighThrougputCYS-ARMTemplate.json",
+      "CpsAbcOpaphIPv6CBN-ARMTemplate.json",
+      "CpsAbcOpaphIPv6CDM-ARMTemplate.json",
+      "CpsAbcOpaphIPv6CYS-ARMTemplate.json",
+      "CpsAbcOpaphMerCDM-ARMTemplate.json",
+      "CpsAbcOpaphMulConnCYS-ARMTemplate.json",
+      "CpsAbcOpaphMultiCaCBN-ARMTemplate.json",
+      "CpsAbcOpaphMultiCaCYS-ARMTemplate.json",
+      "CpsAbcOpaphMultiConnCBN-ARMTemplate.json",
+      "CpsAbcOpaphOvlDSM-ARMTemplate.json",
+      "CpsILBAbcOpaphCBZ-ARMTemplate.json",
+      "CpsILBAbcOpaphCDM-ARMTemplate.json",
+      "CpsILBAbcOpaphCYS-ARMTemplate.json",
+      "CpsLbIlbAbcOpaphCBN-ARMTemplate.json",
+      "CpsLbIlbAbcOpaphCDM-ARMTemplate.json",
+      "CpsLbIlbAbcOpaphCYS-ARMTemplate.json",
+      "CpsLbIlbRdssdOpaphCBN-ARMTemplate.json",
+      "CpsLbIlbRdssdOpaphCDM-ARMTemplate.json",
+      "CpsLbIlbRdssdOpaphCYS-ARMTemplate.json",
+      "CpsMergedAbcNonOpaphCBZ-ARMTemplate.json",
+      "CpsMergedAbcOpaphCBN-ARMTemplate.json",
+      "CpsMergedAbcOpaphCDM-ARMTemplate.json",
+      "CpsMergedAbcOpaphCYS-ARMTemplate.json",
+      "CpsRdssdOpaphCBN-ARMTemplate.json",
+      "CpsRdssdOpaphCDM-ARMTemplate.json",
+      "CpsRdssdOpaphCYS-ARMTemplate.json"
+    ],
+    "DNS": [
+      "DNS_template.json",
+      "DNS_template_Image.json",
+      "RNC_DNS_template.json",
+      "RNC_DNS_template_Image.json"
+    ],
+    "ENic": [
+      "VMwithENicAndLoadBalancer.json",
+      "VMwithENicAndLoadBalancer_Image.json",
+      "VMwithENicAndManagementNic.json",
+      "VMwithENicAndManagementNic_Image.json"
+    ],
+    "ExtraParams": [
+      "GlobalVMSecrets.json",
+      "KVVMExtensionCertRotation.json",
+      "KVVMExtensionCertRotationLinux.json",
+      "UserDefinedVMManagedIdentity.json",
+      "VMSecrets.json"
+    ],
+    "IPv6LB": [
+      "IPv6LBTemplate-SLBv2.json",
+      "IPv6LBTemplate-SLBv2_Image.json",
+      "IPv6LBTemplate.json",
+      "IPv6LBTemplate_Image.json"
+    ],
+    "LB": [
+      "PseudoVIP-ARMTemplate.json",
+      "PseudoVIP-ARMTemplate_Image.json"
+    ],
+    "MNicMCa": [
+      "MNicMCa_template.json",
+      "RNC_MNicMCa_template.json"
+    ],
+    "Nrp": [
+      "CreateCS_template.json",
+      "CreateCustomIpPrefix_template.json",
+      "CreateNic_template.json",
+      "CreateVMSSWithPIPPrefix_template.json",
+      "CreateVMSSWithPIPPrefix_template_Image.json",
+      "CreateVMSS_template.json",
+      "CreateVMSS_template_Image.json",
+      "CreateVM_ReusePPS_template.json",
+      "CreateVM_template.json",
+      "CreateVM_template_Image.json",
+      "Encryption_CreateVM_DropUnencrypted_Image.json",
+      "RNC_CreateNic_template.json",
+      "RNC_CreateVMSSWithPIPPrefix_template.json",
+      "RNC_CreateVMSSWithPIPPrefix_template_Image.json",
+      "RNC_CreateVMSS_template.json",
+      "RNC_CreateVMSS_template_Image.json",
+      "RNC_CreateVMSS_WithFpgaNic_template.json",
+      "RNC_CreateVM_ReusePPS_template.json",
+      "RNC_CreateVM_template.json",
+      "RNC_CreateVM_template_Image.json",
+      "RNC_CreateVM_WithFpgaNic_template.json",
+      "RNC_UpdateVMSS_template.json",
+      "UpdateVMSS_template.json"
+    ],
+    "NSP": [
+      "NSPTemplate.json"
+    ],
+    "PrivateEndpoint": [
+      "PENSGWithAppliedNSG_template.json",
+      "PENSGWithAppliedNSG_template_image.json",
+      "PENSGWithEnabledSubnet_template.json",
+      "PENSGWithEnabledSubnet_template_image.json",
+      "PENSGWithPeCreation_template.json",
+      "PENSGWithPeCreation_template_image.json",
+      "PrivateEndpointASG_template.json",
+      "PrivateEndpointASG_template_Image.json",
+      "PrivateEndpointAzureSearch_template.json",
+      "PrivateEndpointAzureSearch_template_Image.json",
+      "PrivateEndpointCosmosDBDualStack_template.json",
+      "PrivateEndpointCosmosDBDualStack_template_Image.json",
+      "PrivateEndpointCosmosDB_template.json",
+      "PrivateEndpointCosmosDB_template_image.json",
+      "PrivateEndpointPeering_template.json",
+      "PrivateEndpointPeering_template_Image.json",
+      "PrivateEndpointPLNSG_template.json",
+      "PrivateEndpointPLNSG_template_Image.json",
+      "PrivateEndpoint_template.json",
+      "PrivateEndpoint_template_Image.json",
+      "RNC_PrivateEndpoint_template_Image.json"
+    ],
+    "PrivateLink": [
+      "PrivateLink.json",
+      "PrivateLinkGlobalPeering_PLNSG.json",
+      "PrivateLinkGlobalPeering_PLNSG_Image.json",
+      "PrivateLinkHybrid1.json",
+      "PrivateLinkHybrid2.json",
+      "PrivateLinkMerlin.json",
+      "PrivateLinkPL_NSG.json",
+      "PrivateLinkPL_NSG_Image.json",
+      "PrivateLinkRegionalPeeringPLNSG.json",
+      "PrivateLinkRegionalPeeringPLNSG_Image.json",
+      "PrivateLinkServiceWithInternalLBMerlin_Image.json",
+      "PrivateLinkServiceWithPublicLBMerlin.json",
+      "PrivateLink_Image.json"
+    ],
+    "RNC": [
+      "RemoveMe.txt"
+    ],
+    "RncENic": [
+      "RncVMwithENicAndManagementNic.json"
+    ],
+    "ServiceTagDiscovery": [
+      "Hybrid-UDR-NSG-ServiceTag-Template_Image.json",
+      "ServiceTagDiscovery-Template.json",
+      "UDR-DualStackIP-ServiceTag-Template.json",
+      "UDR-DualStackIP-ServiceTag-Template_Image.json",
+      "UDR-NSG-ServiceTag-Template.json",
+      "UDR-NSG-ServiceTag-Template_Image.json"
+    ],
+    "ServiceTunnel": [],
+    "SlbMigration": [
+      "SlbMigrationBasicPingILB.json",
+      "SlbMigrationBasicPingLb.json",
+      "SlbMigrationBasicPingLbFirstParty.json"
+    ],
+    "Slbv2": [
+      "DefaultILPIPSTenant.json",
+      "DefaultILPIPSTenantLinux.json",
+      "DefaultILPIPSTenantLinuxImage.json",
+      "DefaultILPIPSTenantNetPerf.json",
+      "DefaultILPIPSTenantNetPerfLinux.json",
+      "DefaultILPIPSTenantNetPerfLinuxImage.json",
+      "DefaultILPIPSTenantNetPerfLinuxImageSkuQual.json",
+      "DefaultILPIPSTenantNetPerfMaxFlow.json",
+      "DefaultILPIPSTenant_Image.json",
+      "DefaultLBILBILPIPSTenant.json",
+      "DefaultLBILBILPIPSTenant_Image.json",
+      "DefaultLBILBILPIPXTenant.json",
+      "DefaultLBILBILPIPXTenant_Image.json",
+      "DefaultLBILBSTenant.json",
+      "DefaultLBILBSTenant_Image.json",
+      "DefaultLBILBXTenant.json",
+      "DefaultLBILBXTenant_Image.json",
+      "DSRLBILBILPIPSTenant.json",
+      "DSRLBILBILPIPSTenant_Image.json",
+      "DSRLBILBILPIPXTenant.json",
+      "DSRLBILBILPIPXTenant_Image.json",
+      "DSRLBILBSTenant.json",
+      "DSRLBILBSTenant_Image.json",
+      "DSRLBILBXTenant.json",
+      "DSRLBILBXTenant_Image.json",
+      "LMDefaultILPIPSTenant.json",
+      "LMDefaultILPIPSTenant_Image.json",
+      "LMDefaultLBILBILPIPSTenant.json",
+      "LMDefaultLBILBILPIPSTenant_Image.json",
+      "LMDefaultLBILBILPIPXTenant.json",
+      "LMDefaultLBILBILPIPXTenant_Image.json",
+      "MNicMCaLBILBILPIPSTenant.json",
+      "MNicMCaLBILBILPIPSTenant_Image.json",
+      "MNicMCaLBILBILPIPXTenant.json",
+      "MNicMCaLBILBILPIPXTenant_Image.json",
+      "MNicMCaLBILBSTenant.json",
+      "MNicMCaLBILBSTenant_Image.json",
+      "MNicMCaLBILBXTenant.json",
+      "MNicMCaLBILBXTenant_Image.json",
+      "SLBDefaultNATGateway.json",
+      "SLBDefaultNATGatewayAz01.json",
+      "SLBDefaultNATGatewayAz01_Image.json",
+      "SLBDefaultNATGatewayAz02.json",
+      "SLBDefaultNATGatewayAz02_Image.json",
+      "SLBDefaultNATGatewayAz03.json",
+      "SLBDefaultNATGatewayAz03_Image.json",
+      "SLBDefaultNATGatewayWithFastPath.json",
+      "SLBDefaultNATGatewayWithFastPath_Image.json",
+      "SLBDefaultNATGateway_Image.json"
+    ],
+    "Spanning": [],
+    "StressTest": [
+      "StressTest.json"
+    ],
+    "SubscriptionMigration": [
+      "SubscriptionMigrationLBV2Template.json"
+    ],
+    "Test": [
+      "TestE2EWorkerStatus.json"
+    ],
+    "V6Vnet": [
+      "V6Vnet.json",
+      "V6Vnet_Image.json"
+    ],
+    "VipMobility": [
+      "VipMobility-Template.json",
+      "VipMobility-Template_Image.json"
+    ],
+    "VMSS": [],
+    "VnetEncryption": [
+      "VnetEncryptionDatapathBrownField_AccelnetToggle-ARMTemplate_Image.json",
+      "VnetEncryptionDatapathBrownField_Basic-ARMTemplate_Image.json",
+      "VnetEncryptionDatapathBrownField_ChangeEncryptionStrictness-ARMTemplate_Image.json",
+      "VnetEncryptionDatapathBrownField_GlobalPeering-ARMTemplate_Image.json",
+      "VnetEncryptionDatapathBrownField_NSGToggle-ARMTemplate_Image.json",
+      "VnetEncryptionDatapathBrownField_Peering-ARMTemplate_Image.json",
+      "VnetEncryptionDatapathBrownField_Peering2-ARMTemplate_Image.json",
+      "VnetEncryptionDatapathBrownField_VnetUpgrade-ARMTemplate_Image.json",
+      "VnetEncryptionDatapath_AccelnetToggle-ARMTemplate_Image.json",
+      "VnetEncryptionDatapath_Basic-ARMTemplate_Image.json",
+      "VnetEncryptionDatapath_ChangeEncryptionStrictness-ARMTemplate_Image.json",
+      "VnetEncryptionDatapath_GlobalPeering-ARMTemplate_Image.json",
+      "VnetEncryptionDatapath_InRegionPeeringWithILB-ARMTemplate_Image.json",
+      "VnetEncryptionDatapath_NSGToggle-ARMTemplate_Image.json",
+      "VnetEncryptionDatapath_Peering-ARMTemplate_Image.json",
+      "VnetEncryptionDatapath_Peering2-ARMTemplate_Image.json",
+      "VnetEncryptionDatapath_VMReboot-ARMTemplate_Image.json",
+      "VnetEncryptionDatapath_VnetUpgrade-ARMTemplate_Image.json"
+    ],
+    "VnetPeering": []
+  }

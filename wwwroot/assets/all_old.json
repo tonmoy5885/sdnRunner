@@ -1,0 +1,306 @@
+{
+
+    "prod" : {
+        "MdsServiceUrl": "https://production.diagnostics.monitoring.core.windows.net",
+        "MdsLocation": "Runnersvcprodam3",
+        "MdsAccountName": "AzNetToolsRunners",
+        "MDSToolsRelativePath": "RDTools\\Mds\\mds.exe",
+        "MdmAccountName": "AzNetToolsRunners",
+        "MdmNamespace": "E2ETestsSlbv2",
+        "RunnerName" : "",
+        "RunnerDescription" : "",
+        "RunnerFlavor" : ""
+    },
+
+    "dev" : {
+        "MdsServiceUrl": "https://production.diagnostics.monitoring.core.windows.net",
+        "MdsLocation": "Runnersvcprodam3",
+        "MdsAccountName" : "AzNetToolsRunnersDev",
+        "MDSToolsRelativePath": "RDTools\\Mds\\mds.exe",
+        "MdmAccountName": "AzNetToolsRunnersDev",
+        "MdmNamespace": "E2ETestsSlbv2",
+        "RunnerName" : "",
+        "RunnerDescription" : "",
+        "RunnerFlavor" : ""
+    },
+
+    "all" : {
+        "MdsServiceUrl": "https://production.diagnostics.monitoring.core.windows.net",
+        "MdsLocation": "runnerSVCProdAM3",
+        "MdsAccountName": "AzNetToolsRunners",
+        "MDSToolsRelativePath": "RDTools\\Mds\\mds.exe",
+        "MdmAccountName": "AzNetToolsRunners",
+        "MdmNamespace": "E2ETestsSlbv2",
+        "ClientCertThumbprint": "dac3d81955b6b9a617fb7fb6508812a87231bfd3",
+        "CertStoreLocation": "CurrentUser",
+        "ResourceGroupName": "",
+        "DeploymentName": "",
+        "DataPathTestIntervalInSeconds": "120",
+        "RunnerRedeploymentIntervalInHours": "-1",
+        "ResourceGroupRedeploymentIntervalInHours": "72",
+        "NumberOfRGsPerInstance": "3",
+        "TransformationIntervalInSeconds": "-1",
+        "ExceptionIntervalInHours": "1",
+        "CurrentTransformationDeploymentNumber": "0",
+        "NumberOfTransformations": "0",
+        "NumberOfResourceDeployments": "0",
+        "DataPathMetricName": "E2ERunnersDataPathMetric",
+        "DPValidationMetric": "DPValidationMetric",
+        "DeploymentMetricName": "LifeCycleMetric",
+        "TcpListenerSettingPath": "ContentFiles/TcpListenerJson.txt",
+        "UdpListenerSettingPath": "ContentFiles/UdpListenerJson.txt",
+        "TcpSendTimeoutSeconds": "15",
+        "UdpSendTimeoutSeconds": "15",
+        "MaxTcpSendAttempts": "5",
+        "MaxUdpSendAttempts": "5",
+        "TcpSendSettingPath": "ContentFiles/TCPSenderJson.txt",
+        "UdpSendSettingPath": "ContentFiles/UdpSenderJson.txt",
+        "LMEnabled": "false",
+        "DeleteRGAfterFailedDeploy": "true",
+        "NonLegacySku": "false",
+        "SubscriptionId": "3e2a2e74-020f-49fd-8879-eb31d7ffbc63",
+        "CloudType": "Null",
+        "ClientId": "0f56e109-8595-43d9-a93b-0083a6ec7398",
+        "TenantId": "33e01921-4d64-4f8c-a055-5bdaffd5e33d",
+        "AADServicePrincipalObjectId": "568a350f-4559-497a-9e5e-38933b26ac02",
+        "UseManagedIdentity": "true",
+        "UserMgdClientId": "fd87f0ba-401e-4f7b-9f1e-a855b5127572",
+        "UserMgdTenantId": "33e01921-4d64-4f8c-a055-5bdaffd5e33d",
+        "UserMgdObjectId": "6412ed54-a32c-4851-b452-27bba0bca66e",
+        "AuthorityText": "https://login.windows.net/{0}",
+        "WorkerRoleUrl": "https://management.azure.com",
+        "AzureManagementUrl": "https://management.azure.com/",
+        "KeyVaultResourceURL": "vault.azure.net",
+        "KeyVaultCertName": "E2EWorkersCert",
+        "MACertificateName": "SDNRunnerMA",
+        "KeyVaultNamePrefix": "KVT",
+        "KeyVaultRGName": "E2ERunnersKeyVault",
+        "KeyVaultConfigFileName": "Configurations\\\\KeyVaultConfig.Public.xml",
+        "SubscriptionListFileName": "AzureConstants\\\\AzureSubscriptionList.Public.json",
+        "CloudappFqdn": ".cloudapp.azure.com",
+        "StorageEndpointSuffix": "core.windows.net",
+        "SqlServerEndPointSuffix": "database.windows.net",
+        "AzureEnvironmentType": "Null",
+        "EnableKeyVaultIntegration": "true",
+        "IsBootstrapRunner": "false",
+        "RunnerNamespace": "E2ETests",
+        "UseSubjectNameBasedAccessToAAD": "true",
+        "IsLocalBox": "false",
+        "ModifyPipSlbSku": "true",
+        "DeploymentMode": "NoOp",
+        "WorkerLogType": "Json",
+        "AllowHotFixForDeploymentTemplate": "false",
+        "AllowCertBasedAccessToRunMDSCommands": "false",
+        "SkipArmTemplate": "false",
+        "NetPerf": "false",
+        "RunnerFlavor": "azf"
+    },
+
+    "public" : {
+        "Prod": {
+            "EnvironmentName": "Prod",
+            "Configurations": {
+                "Region": "prod",
+                "AzureEnvironmentType": "prod",
+                "CloudType": "Public"
+
+            },
+            "Region": [
+                "westus",
+                "eastus",
+                "eastus2",
+                "northcentralus",
+                "westus2",
+                "southcentralus",
+                "centralus",
+                "westeurope",
+                "northeurope",
+                "eastasia",
+                "southeastasia",
+                "japaneast",
+                "japanwest",
+                "brazilsouth",
+                "australiaeast",
+                "australiasoutheast",
+                "southindia",
+                "westindia",
+                "centralindia",
+                "canadacentral",
+                "canadaeast",
+                "ukwest",
+                "uksouth",
+                "koreasouth",
+                "koreacentral",
+                "francecentral",
+                "francesouth",
+                "australiacentral",
+                "australiacentral2",
+                "southafricawest",
+                "southafricanorth",
+                "uaecentral",
+                "uaenorth",
+                "switzerlandwest",
+                "switzerlandnorth",
+                "germanynorth",
+                "germanywestcentral",
+                "norwayeast",
+                "norwaywest",
+                "brazilsoutheast",
+                "westus3",
+                "jioindiacentral",
+                "jioindiawest",
+                "swedensouth",
+                "swedencentral"
+            ]
+        },
+        "Canary": {
+            "EnvironmentName": "Canary",
+            "Configurations": {
+                "CloudType": "Public",
+                "Region": "canary",
+                "AzureEnvironmentType": "canary"
+            },
+            "Region": [
+                "centraluseuap",
+                "eastus2euap"
+            ]
+        },
+        "Pilot": {
+            "EnvironmentName": "Pilot",
+            "Configurations": {
+                "Region": "pilot",
+                "AzureEnvironmentType": "pilot",
+                "CloudType": "Public"
+            },
+            "Region": [
+                "westcentralus"
+            ]
+        }
+    },
+
+    "fairfax" : {
+        "FFProd": {
+            "EnvironmentName": "FFProd",
+            "Configurations": {
+                "SubscriptionId": "96a8ca19-052b-4aa7-942a-247e1b6e36ba",
+                "CloudType": "Fairfax",
+                "MdsLocation": "runnerSvcProdBM1",
+                "ClientId": "18d878d6-ef67-4eec-9110-6bffb0a46a7b",
+                "TenantId": "cab8a31a-1906-4287-a0d8-4eef66b95f6e",
+                "AADServicePrincipalObjectId": "150568ac-db75-4aba-9588-dc23609455fd",
+                "UserMgdClientId": "b72c2a8f-c79d-40f7-84b6-f2386b07f341",
+                "UserMgdTenantId": "cab8a31a-1906-4287-a0d8-4eef66b95f6e",
+                "UserMgdObjectId": "43538a91-7734-492d-bbff-db69e3d9f6ef",
+                "AuthorityText": "https://login.microsoftonline.us/{0}",
+                "AzureManagementUrl": "https://management.usgovcloudapi.net/",
+                "WorkerRoleUrl": "https://management.usgovcloudapi.net",
+                "CloudappFqdn": ".cloudapp.usgovcloudapi.net",
+                "StorageEndpointSuffix": "core.usgovcloudapi.net",
+                "SqlServerEndPointSuffix": "database.usgovcloudapi.net",
+                "AzureEnvironmentType": "fairfax",
+                "MdmNamespace": "E2ETestsSlbv2",
+                "Region": "prod",
+                "KeyVaultResourceURL": "vault.usgovcloudapi.net",
+                "SubscriptionListFileName": "AzureConstants\\\\AzureSubscriptionList.Fairfax.json",
+                "KeyVaultConfigFileName": "Configurations\\\\KeyVaultConfig.Fairfax.xml"
+            },
+            "Region": [
+                "usgovvirginia",
+                "usgoviowa",
+                "usdodcentral",
+                "usdodeast",
+                "usgovtexas",
+                "usgovarizona"
+            ]
+        }
+    },
+
+    "mooncake" : {
+        "MCProd": {
+            "EnvironmentName": "MCProd",
+            "Configurations": {
+                "SubscriptionId": "b367fb5d-5b3e-4f05-9d1f-de1c13a79fc6",
+                "CloudType": "Mooncake",
+                "MdsLocation": "runnerSvcProdBM1",
+                "ClientId": "3d8dc7be-728a-49dc-a469-ec090f1e90af",
+                "TenantId": "a55a4d5b-9241-49b1-b4ff-befa8db00269",
+                "AADServicePrincipalObjectId": "01968254-bda0-49d2-a71a-5c13bdbfd6f2",
+                "AuthorityText": "https://login.chinacloudapi.cn/{0}",
+                "AzureManagementUrl": "https://management.chinacloudapi.cn/",
+                "CloudappFqdn": ".cloudapp.chinacloudapi.cn",
+                "StorageEndpointSuffix": "core.chinacloudapi.cn",
+                "SqlServerEndPointSuffix": "database.chinacloudapi.cn",
+                "AzureEnvironmentType": "mooncake",
+                "Region": "prod",
+                "MdmNamespace": "E2ETestsSlbv2",
+                "KeyVaultResourceURL": "vault.azure.cn",
+                "KeyVaultConfigFileName": "Configurations\\\\KeyVaultConfig.Mooncake.xml",
+                "SubscriptionListFileName": "AzureConstants\\\\AzureSubscriptionList.Mooncake.json"
+            },
+            "Region": [
+                "chinanorth",
+                "chinaeast",
+                "chinaeast2",
+                "chinanorth2"
+            ]
+        }
+    },
+
+    "usnat" : {
+        "USNatProd": {
+            "EnvironmentName": "USNatProd",
+            "Configurations": {
+                "SubscriptionId": "e1d1d1c8-a683-40d7-9813-f24ed6a7bc11",
+                "CloudType": "USNat",
+                "MdsLocation": "runnerSvcProdBM1",
+                "ClientId": "4cfcd20c-fd76-4ecb-857d-1db1a46733b3",
+                "TenantId": "70a90262-f46c-48aa-ac4c-37e37f8be1a2",
+                "AADServicePrincipalObjectId": "c621c295-a0d0-4669-a597-e1eb4e72a3e0",
+                "AuthorityText": "https://login.microsoftonline.eaglex.ic.gov/{0}",
+                "AzureManagementUrl": "https://management.core.eaglex.ic.gov/",
+                "CloudappFqdn": ".cloudapp.eaglex.ic.gov",
+                "StorageEndpointSuffix": "core.eaglex.ic.gov",
+                "SqlServerEndPointSuffix": "database.eaglex.ic.gov",
+                "AzureEnvironmentType": "usnat",
+                "MdmNamespace": "E2ETestsSlbv2",
+                "Region": "prod",
+                "KeyVaultResourceURL": "vault.azure.eaglex.ic.gov",
+                "SubscriptionListFileName": "AzureConstants\\\\AzureSubscriptionList.USNat.json",
+                "KeyVaultConfigFileName": "Configurations\\\\KeyVaultConfig.USNat.xml"
+            },
+            "Region": [
+                "usnateast",
+                "usnatwest"
+            ]
+        }
+    },
+
+    "ussec" : {
+        "USSecProd": {
+            "EnvironmentName": "USSecProd",
+            "Configurations": {
+                "SubscriptionId": "3203e029-54a8-4c1d-9084-21ff311b46e5",
+                "CloudType": "USSec",
+                "MdsLocation": "runnerSvcProdBM1",
+                "ClientId": "157e8bff-11b4-40d1-b630-707d642c830c",
+                "TenantId": "20ac2fc4-effc-4f76-ba7d-63c5ae134f5f",
+                "AADServicePrincipalObjectId": "24432996-d588-4e67-934d-dd7c47b9c8f8",
+                "AuthorityText": "https://login.microsoftonline.microsoft.scloud/{0}",
+                "AzureManagementUrl": "https://management.core.microsoft.scloud/",
+                "CloudappFqdn": ".cloudapp.microsoft.scloud",
+                "StorageEndpointSuffix": "core.microsoft.scloud",
+                "SqlServerEndPointSuffix": "database.microsoft.scloud",
+                "AzureEnvironmentType": "ussec",
+                "MdmNamespace": "E2ETestsSlbv2",
+                "Region": "prod",
+                "KeyVaultResourceURL": "vault.azure.microsoft.scloud",
+                "SubscriptionListFileName": "AzureConstants\\\\AzureSubscriptionList.USSec.json",
+                "KeyVaultConfigFileName": "Configurations\\\\KeyVaultConfig.USSec.xml"
+            },
+            "Region": [
+                "usseceast",
+                "ussecwest"
+            ]
+        }
+    }
+}

@@ -1,0 +1,161 @@
+{
+  "1northcentralusprod": {
+    "RunnerName": "runnerName.Mzasdfiu",
+    "RunnerInstanceName": "3Mzasdfiubrazilsouthprod",
+    "EnvironmentName": "3brazilsouthprod",
+    "MdsServiceUrl": "https://production.diagnostics.monitoring.core.windows.net",
+    "MdsLocation": "Runnersvcprodam3",
+    "MdsAccountName": "AzNetToolsRunners",
+    "MDSToolsRelativePath": "RDTools\\Mds\\mds.exe",
+    "MdmNamespace": "E2ETestsSlbv2",
+    "CertStoreLocation": "",
+    "CIDR": "",
+    "Zones": "",
+    "ClientId": "0f56e109-8595-43d9-a93b-0083a6ec7398",
+    "TenantId": "33e01921-4d64-4f8c-a055-5bdaffd5e33d",
+    "AADServicePrincipalObjectId": "568a350f-4559-497a-9e5e-38933b26ac02",
+    "UserMgdClientId": "fd87f0ba-401e-4f7b-9f1e-a855b5127572",
+    "UserMgdTenantId": "33e01921-4d64-4f8c-a055-5bdaffd5e33d",
+    "UserMgdObjectId": "6412ed54-a32c-4851-b452-27bba0bca66e",
+    "AuthorityText": "https://login.windows.net/{0}",
+    "AzureManagementUrl": "https://management.azure.com/",
+    "WorkerRoleUrl": "https://management.azure.com",
+    "CloudappFqdn": ".cloudapp.azure.com",
+    "StorageEndpointSuffix": "core.windows.net",
+    "SqlServerEndPointSuffix": "database.windows.net",
+    "KeyVaultResourceURL": "vault.azure.net",
+    "SubscriptionListFileName": "AzureConstants\\AzureSubscriptionList.Public.json",
+    "KeyVaultConfigFileName": "Configurations\\KeyVaultConfig.Public.xml",
+    "SubscriptionId": "d3",
+    "Region": "brazilsouth",
+    "ResourceGroupName": "3Mzasdfiubrasprod",
+    "WorkerLogType": "json",
+    "TipClusters": null,
+    "ARMTemplates": {
+      "Identifier": null,
+      "TemplatePath": "ARMTemplates\\Accelnet\\VMFrontedWithELB-ARMTemplate.json",
+      "TemplateContents": null,
+      "OutputVariables": null,
+      "DeploymentDuration": "00:00:00",
+      "IsPrimaryARMTemplate": true,
+      "TransformationIntervalSeconds": -1
+    },
+    "ValidationType": [
+      ""
+    ],
+    "RunnerValidations": {
+      "": [
+        ""
+      ]
+    },
+    "RunnerControlPlaneValidations": [
+      ""
+    ]
+  },
+  "2southeastasiaprod": {
+    "RunnerName": "runnerName.Mzasdfiu",
+    "RunnerInstanceName": "3Mzasdfiubrazilsouthprod",
+    "EnvironmentName": "3brazilsouthprod",
+    "MdsServiceUrl": "https://production.diagnostics.monitoring.core.windows.net",
+    "MdsLocation": "Runnersvcprodam3",
+    "MdsAccountName": "AzNetToolsRunners",
+    "MDSToolsRelativePath": "RDTools\\Mds\\mds.exe",
+    "MdmNamespace": "E2ETestsSlbv2",
+    "CertStoreLocation": "",
+    "CIDR": "",
+    "Zones": "",
+    "ClientId": "0f56e109-8595-43d9-a93b-0083a6ec7398",
+    "TenantId": "33e01921-4d64-4f8c-a055-5bdaffd5e33d",
+    "AADServicePrincipalObjectId": "568a350f-4559-497a-9e5e-38933b26ac02",
+    "UserMgdClientId": "fd87f0ba-401e-4f7b-9f1e-a855b5127572",
+    "UserMgdTenantId": "33e01921-4d64-4f8c-a055-5bdaffd5e33d",
+    "UserMgdObjectId": "6412ed54-a32c-4851-b452-27bba0bca66e",
+    "AuthorityText": "https://login.windows.net/{0}",
+    "AzureManagementUrl": "https://management.azure.com/",
+    "WorkerRoleUrl": "https://management.azure.com",
+    "CloudappFqdn": ".cloudapp.azure.com",
+    "StorageEndpointSuffix": "core.windows.net",
+    "SqlServerEndPointSuffix": "database.windows.net",
+    "KeyVaultResourceURL": "vault.azure.net",
+    "SubscriptionListFileName": "AzureConstants\\AzureSubscriptionList.Public.json",
+    "KeyVaultConfigFileName": "Configurations\\KeyVaultConfig.Public.xml",
+    "SubscriptionId": "d3",
+    "Region": "brazilsouth",
+    "ResourceGroupName": "3Mzasdfiubrasprod",
+    "WorkerLogType": "json",
+    "TipClusters": null,
+    "ARMTemplates": {
+      "Identifier": null,
+      "TemplatePath": "ARMTemplates\\Accelnet\\VMFrontedWithELB-ARMTemplate.json",
+      "TemplateContents": null,
+      "OutputVariables": null,
+      "DeploymentDuration": "00:00:00",
+      "IsPrimaryARMTemplate": true,
+      "TransformationIntervalSeconds": -1
+    },
+    "ValidationType": [
+      ""
+    ],
+    "RunnerValidations": {
+      "": [
+        ""
+      ]
+    },
+    "RunnerControlPlaneValidations": [
+      ""
+    ]
+  },
+  "3brazilsouthprod": {
+    "RunnerName": "runnerName.Mzasdfiu",
+    "RunnerInstanceName": "3Mzasdfiubrazilsouthprod",
+    "EnvironmentName": "3brazilsouthprod",
+    "MdsServiceUrl": "https://production.diagnostics.monitoring.core.windows.net",
+    "MdsLocation": "Runnersvcprodam3",
+    "MdsAccountName": "AzNetToolsRunners",
+    "MDSToolsRelativePath": "RDTools\\Mds\\mds.exe",
+    "MdmNamespace": "E2ETestsSlbv2",
+    "CertStoreLocation": "",
+    "CIDR": "",
+    "Zones": "",
+    "ClientId": "0f56e109-8595-43d9-a93b-0083a6ec7398",
+    "TenantId": "33e01921-4d64-4f8c-a055-5bdaffd5e33d",
+    "AADServicePrincipalObjectId": "568a350f-4559-497a-9e5e-38933b26ac02",
+    "UserMgdClientId": "fd87f0ba-401e-4f7b-9f1e-a855b5127572",
+    "UserMgdTenantId": "33e01921-4d64-4f8c-a055-5bdaffd5e33d",
+    "UserMgdObjectId": "6412ed54-a32c-4851-b452-27bba0bca66e",
+    "AuthorityText": "https://login.windows.net/{0}",
+    "AzureManagementUrl": "https://management.azure.com/",
+    "WorkerRoleUrl": "https://management.azure.com",
+    "CloudappFqdn": ".cloudapp.azure.com",
+    "StorageEndpointSuffix": "core.windows.net",
+    "SqlServerEndPointSuffix": "database.windows.net",
+    "KeyVaultResourceURL": "vault.azure.net",
+    "SubscriptionListFileName": "AzureConstants\\AzureSubscriptionList.Public.json",
+    "KeyVaultConfigFileName": "Configurations\\KeyVaultConfig.Public.xml",
+    "SubscriptionId": "d3",
+    "Region": "brazilsouth",
+    "ResourceGroupName": "3Mzasdfiubrasprod",
+    "WorkerLogType": "json",
+    "TipClusters": null,
+    "ARMTemplates": {
+      "Identifier": null,
+      "TemplatePath": "ARMTemplates\\Accelnet\\VMFrontedWithELB-ARMTemplate.json",
+      "TemplateContents": null,
+      "OutputVariables": null,
+      "DeploymentDuration": "00:00:00",
+      "IsPrimaryARMTemplate": true,
+      "TransformationIntervalSeconds": -1
+    },
+    "ValidationType": [
+      ""
+    ],
+    "RunnerValidations": {
+      "": [
+        ""
+      ]
+    },
+    "RunnerControlPlaneValidations": [
+      ""
+    ]
+  }
+}

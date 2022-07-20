@@ -1,0 +1,144 @@
+@page
+@model DevpModel
+@{
+    ViewData["Title"] = "Dev page";
+}
+
+<div class="text-center my-3">
+    <h3>Config Generetor v-2</h3>
+</div>
+
+
+@if(Model.hasData)
+{
+    <div class="container text-center mt-5">
+        <a class="btn btn-primary" href="@Model.filepath" target="_blank">View JSON</a>
+        <a class="btn btn-primary" href="@Model.filepath" target="_blank" download >Download JSON</a>
+    </div>
+}
+
+else {
+
+    <div class="container">
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="sndRunner" id="sndRunner1" checked value="prod">
+                <label class="form-check-label" for="sndRunner1">Production</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="sndRunner" id="sndRunner2" value="dev">
+                <label class="form-check-label" for="sndRunner2">Development</label>
+            </div>
+
+            <hr>
+
+            <div>
+                
+                <div class="form-check">
+                    <input class="form-check-input cloudType" type="checkbox" name="cloudType" id="cloudTypePublic" onclick="unOthers(this)" value="Public">
+                    <label class="form-check-label" for="cloudTypePublic">Public</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input cloudType" type="checkbox" name="cloudType" id="cloudTypeFairfax" onclick="unOthers(this)" value="Fairfax">
+                    <label class="form-check-label" for="cloudTypeFairfax">Fairfax</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input cloudType" type="checkbox" name="cloudType" id="cloudTypeMooncake" onclick="unOthers(this)" value="Mooncake">
+                    <label class="form-check-label" for="cloudTypeMooncake">Mooncake</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input cloudType" type="checkbox" name="cloudType" id="cloudTypeUSNat" onclick="unOthers(this)" value="USNat">
+                    <label class="form-check-label" for="cloudTypeUSNat">USNat</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input cloudType" type="checkbox" name="cloudType" id="cloudTypeUSSec" onclick="unOthers(this)" value="USSec">
+                    <label class="form-check-label" for="cloudTypeUSSec">USSec</label>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="text-center mb-4">
+                <button class="btn btn-primary" id="updateForm">Next</button>
+            </div>
+
+    </div>
+
+    <div class="container">
+        <form action="/devp" method="post" asp-antiforgery="true">
+            <div id="form_class">
+                
+            </div>
+        </form>
+    </div>
+
+    <script>
+
+        const unOthers = ( current ) => {
+            var checkboxes = document.getElementsByClassName('cloudType');
+            for (var checkbox of checkboxes) {
+                checkbox.checked = false;
+            }
+            current.checked = true;
+        }
+
+        const selectAll = ( cloudTypeAll ) => {
+
+            var checkboxes = document.getElementsByName('cloudType');
+
+            if ( cloudTypeAll.checked == true  ) {
+                for (var checkbox of checkboxes) {
+                    checkbox.checked = true;
+                }
+            }
+
+            else {
+                for (var checkbox of checkboxes) {
+                    checkbox.checked = false;
+                }
+            }
+
+        }
+
+
+        @* const goNext = () => {
+
+            let type= null;
+
+            const sdnRunner = document.getElementsByName("sndRunner")
+            if ( sdnRunner[0].checked == true ) {
+                type = sdnRunner[0].value;
+            }
+            else if ( sdnRunner[1].checked == true ) {
+                type = sdnRunner[1].value;
+            }
+
+            var ctype = null;
+            
+            // Check Select all is checked
+
+            if ( document.getElementById("cloudTypeAll").checked  ) {
+                ctype = "all";
+            }
+            
+            else {
+
+                var ctype = null; 
+                var inputElements = document.getElementsByName("cloudType");
+                for(var i=0; inputElements[i]; ++i){
+                    if(inputElements[i].checked){
+                        ctype = inputElements[i].value;
+                        break;
+                    }
+                }
+            }
+        
+        } *@
+
+    </script>
+}
